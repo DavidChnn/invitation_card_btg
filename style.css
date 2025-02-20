@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.container {
+    background-image: url(/asset/background.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+.container_body {
+    position: relative;
+    transform: translate(0%, -30%);
+}
+
+.container_date {
+    color: white;
+    text-align: center;
+}
+
+.container_date_flex {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+
+.sparcle {
+    max-width: 100%;
+    image-resolution: 100%;
+}
+
+.container_decription {
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.container_countdown {
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.tai_heritage {
+    font-size: 20px;
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.tai_heritage_1 {
+    font-size: 14px;
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.bacasime {
+    font-size: 70px;
+    font-family: 'Bacasime Antique', Georgia, serif;
+}
+
+.alex_brush {
+    font-size: 60px;
+    font-family: 'Alex Brush', serif;
+    color: #F7CE45;
+    transform: translate(0%, -50%);
+    text-shadow: 0px 4px 8px rgba(247, 206, 69, 0.8),
+                 0px 8px 16px rgba(247, 206, 69, 0.5),
+                 0px 16px 32px rgba(247, 206, 69, 1),
+                 0px 32px 64px rgba(247, 206, 69, 0.5),
+                 0px 16px 32px rgba(247, 206, 69, 0.2),
+                 0px 8px 16px rgba(247, 206, 69, 0.5);
+}
+
+button {
+    margin-top: 20px;
+    background-color: #ffd23d;
+    font-family: 'Tai Heritage Pro', serif;
+    padding: 4px 16px;
+    border: none;
+    outline: none;
+    box-shadow: 
+            6px -6px 20px rgba(247, 206, 69, 0.5),
+            -12px 10px 22px rgba(247, 206, 69, 0.4),
+            15px 8px 30px rgba(247, 206, 69, 0.6),
+            -18px -10px 25px rgba(247, 206, 69, 0.5),
+            10px 16px 28px rgba(247, 206, 69, 0.4);
+}
